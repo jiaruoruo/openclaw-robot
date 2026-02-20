@@ -1,0 +1,17 @@
+{
+  "records": [],
+  "daily": {
+    "2026-02-20": {
+      "cost": 0.0,
+      "tokens": 12400000
+    }
+  },
+  "latest": {
+    "total_cost": 20.83,
+    "total_tokens": 76600000,
+    "latest_day": "2026-02-20",
+    "latest_cost": 0.0,
+    "latest_tokens": 12400000,
+    "last_updated": "2026-02-20T10:37:47.516403"
+  }
+}
