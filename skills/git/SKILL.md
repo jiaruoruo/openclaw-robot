@@ -194,3 +194,41 @@ mno7890 Fifth commit
 - 推送前先拉取最新代码
 - 重要操作前建议创建备份分支
 - 使用有意义的提交信息
+
+## GitHub 配置
+
+### 已配置的远程仓库
+
+```
+origin https://github.com/jiaruoruo/openclaw-robot.git (已认证)
+```
+
+### 推送命令
+
+```bash
+# 推送到 GitHub
+git push -u origin master
+
+# 推送所有分支
+git push --all origin
+```
+
+### 配置 GitHub Token (如需重新配置)
+
+```bash
+# 方法1: 使用 token 作为远程 URL
+git remote set-url origin https://YOUR_TOKEN@github.com/username/repo.git
+
+# 方法2: 使用 git credential store
+git config --global credential.helper store
+# 下次推送时输入用户名和 token
+
+# 方法3: 使用环境变量
+# GIT_ASKPASS=echo GIT_TERMINAL_PROMPT=0 git push
+```
+
+### GitHub Token 安全提示
+
+- ⚠️ 切勿将 token 提交到代码仓库
+- 建议使用 GitHub CLI 或 credential helper 管理凭据
+- 定期轮换 token
