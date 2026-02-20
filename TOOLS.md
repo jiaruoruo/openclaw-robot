@@ -73,6 +73,7 @@ Custom skills location: `C:\Users\贾若\.openclaw\workspace\skills\`
 | **investment** | 股票、基金、ETF 投资分析 |
 | **billing** | Token 消耗追踪与报表 |
 | **git** | Git 仓库管理 |
+| **password** | 密码管理工具 |
 ```
 
 ## Why Separate?
